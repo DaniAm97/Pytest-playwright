@@ -49,7 +49,7 @@ data_workspace = {
 
 
 
-def test_craete_workspace(api_request_context:APIRequestContext) -> None:
+def test_create_workspace(api_request_context:APIRequestContext) -> None:
 
     response = api_request_context.post(f"/api/v1/login", data=data_login)
 
